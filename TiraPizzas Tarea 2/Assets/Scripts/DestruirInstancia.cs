@@ -19,7 +19,7 @@ public class DestruirInstancia : MonoBehaviour
         if(transform.position.z>limiteSuperior)
          {
             Destroy(gameObject);
-            Debug.Log("estas jugando");
+            
          }
             else if(transform.position.z < limiteInferior)
             {

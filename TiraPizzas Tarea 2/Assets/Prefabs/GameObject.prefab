@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3752456804200117863}
   - component: {fileID: -1221019500125123137}
   - component: {fileID: 8256975067117297521}
+  - component: {fileID: 1581344016877845896}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -47,13 +48,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalesPrefab:
-  - {fileID: 119940, guid: 49b874b9460c6754c829d7cb541a99db, type: 3}
   - {fileID: 947818371960884018, guid: c3c3849c591b7f3418400a5e5e3fdb98, type: 3}
-  - {fileID: 134694, guid: 50f1d192ccb21a24b95a7e4e403a9bb5, type: 3}
+  - {fileID: 6992876126968391591, guid: ee575464518a68244ad528ea57b24898, type: 3}
+  - {fileID: 197258, guid: 782ffceb74ed3aa47a2a09261607aeb2, type: 3}
+  - {fileID: 3623708030164758364, guid: 41f220b8ad33cc24c9fc5f31777b1ce4, type: 3}
   xposicion1: 20
   xposicion2: 20
-  inicioGeneracion: 2
-  retardoGeneracion: 1.5
+  inicioGeneracion: 1
+  retardoGeneracion: 1
 --- !u!114 &-1221019500125123137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,5 +79,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf0b7c1d756c8e4a907356b191111ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1581344016877845896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752456804200117860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a2e43836fb9fb4a9f91ce4bc35fe45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

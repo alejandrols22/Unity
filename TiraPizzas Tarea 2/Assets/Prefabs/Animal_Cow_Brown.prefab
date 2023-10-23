@@ -528,6 +528,9 @@ GameObject:
   - component: {fileID: 947818371968298418}
   - component: {fileID: -3523577090110743437}
   - component: {fileID: 1369664455606075526}
+  - component: {fileID: 5669203195437824082}
+  - component: {fileID: 4870669181082221300}
+  - component: {fileID: 5782188057889867042}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -584,7 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35e6a813562bd604c882fa3be1238159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 40
+  velocidad: 5
 --- !u!114 &1369664455606075526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +598,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf0b7c1d756c8e4a907356b191111ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5669203195437824082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947818371960884018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25, y: 36.875904, z: 43.98489}
+  m_Center: {x: 1.94699e-15, y: 11.322461, z: -1.9924414}
+--- !u!54 &4870669181082221300
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947818371960884018}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5782188057889867042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947818371960884018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a2e43836fb9fb4a9f91ce4bc35fe45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &947818371960886290
